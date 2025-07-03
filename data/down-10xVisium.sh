@@ -1,0 +1,26 @@
+mkdir 10xVisium
+cd 10xVisium
+
+mkdir CytAssist_FFPE_Protein_Expression_Human_Tonsil
+cd CytAssist_FFPE_Protein_Expression_Human_Tonsil
+echo "Downloading 10x Visium CytAssist_FFPE_Protein_Expression_Human_Tonsil_filtered_feature_bc_matrix"
+wget https://cf.10xgenomics.com/samples/spatial-exp/2.1.0/CytAssist_FFPE_Protein_Expression_Human_Tonsil/CytAssist_FFPE_Protein_Expression_Human_Tonsil_filtered_feature_bc_matrix.h5 -O filtered_feature_bc_matrix.h5
+echo "Downloading 10x Visium CytAssist_FFPE_Protein_Expression_Human_Tonsil_tissue_image"
+wget https://cf.10xgenomics.com/samples/spatial-exp/2.1.0/CytAssist_FFPE_Protein_Expression_Human_Tonsil/CytAssist_FFPE_Protein_Expression_Human_Tonsil_tissue_image.tif -O tissue_image.tif
+echo "Downloading 10x Visium CytAssist_FFPE_Protein_Expression_Human_Tonsil_spatial"
+wget https://cf.10xgenomics.com/samples/spatial-exp/2.1.0/CytAssist_FFPE_Protein_Expression_Human_Tonsil/CytAssist_FFPE_Protein_Expression_Human_Tonsil_spatial.tar.gz -O spatial.tar.gz
+echo "Decompressing 10x Visium CytAssist_FFPE_Protein_Expression_Human_Tonsil_spatial"
+tar -xzvf spatial.tar.gz
+
+cd ..
+
+mkdir CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOn
+cd CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOn
+echo "Downloading 10x Visium CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns_filtered_feature_bc_matrix"
+wget https://cf.10xgenomics.com/samples/spatial-exp/2.1.0/CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns/CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns_filtered_feature_bc_matrix.h5 -O filtered_feature_bc_matrix.h5
+echo "Downloading 10x Visium CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns_tissue_image"
+wget https://cf.10xgenomics.com/samples/spatial-exp/2.1.0/CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns/CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns_tissue_image.btf -O tissue_image.btf
+echo "Downloading 10x Visium CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns_spatial"
+wget https://cf.10xgenomics.com/samples/spatial-exp/2.1.0/CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns/CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns_spatial.tar.gz -O spatial.tar.gz
+echo "Decompressing 10x Visium CytAssist_FFPE_Protein_Expression_Human_Tonsil_AddOns_spatial"
+tar -xzvf spatial.tar.gz

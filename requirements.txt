@@ -1,0 +1,6 @@
+# torch>=2.0.1
+# torchvision
+numpy<2
+timm==0.9.8
+tifffile
+scanpy
