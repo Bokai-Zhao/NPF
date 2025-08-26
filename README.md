@@ -1,6 +1,8 @@
 # NPF
 Neural Proteomics Fields for Super-resolved Spatial Proteomics Prediction - MICCAI2025
 
+[Arxiv](https://arxiv.org/abs/2508.17389)
+
 ![NPF overview](./docs/figure_1.png)
 
 ## Create conda env
