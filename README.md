@@ -11,7 +11,7 @@ conda create -n NPF -y python==3.10
 git clone https://github.com/Bokai-Zhao/NPF.git
 cd NPF
 ```
-Please install PyTorch 2.0.1 or later and the corresponding torchvision:
+Please install PyTorch 2.1.0 or later and the corresponding torchvision:
 ```bash
 # Example installation command:
 pip install torch==2.1.0 torchvision==0.16.0 --index-url https://download.pytorch.org/whl/cu118
